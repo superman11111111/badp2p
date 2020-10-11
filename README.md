@@ -22,7 +22,7 @@ https://en.wikipedia.org/wiki/Peer-to-peer
 
 I got sidetracked, now want to understand how sys/socket.h socket sends data. what syscalls? 
 
-what is INDIRECT_CALL_INET ?? in line 651 in https://github.com/torvalds/linux/blob/master/net/socket.c ??
+what is INDIRECT_CALL_INET https://github.com/torvalds/linux/blob/master/net/socket.c#L651 
 
 HOW DOES IT ALL WORK I DONT SEE THE ASSEMBLY 
 
