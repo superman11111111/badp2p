@@ -1,9 +1,8 @@
-all: p2p run 
 CC=gcc
-CFLAGS=-I.
 
+all: p2p 
 p2p: p2p.c
-	$(CC) -o p2p p2p.c
+	$(CC) -pthread -o p2p.bin p2p.c
 
 run: p2p
 	./p2p
